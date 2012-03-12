@@ -2,20 +2,20 @@
   couch : {
     host : "localhost",
     port : 5984,
-    db : "sample"
+    db : "hwos"
   },
   test-couch : {
-    host : "ecko-it.iriscouch.com",
+    host : "hwos.iriscouch.com",
     port : "5984",
-    db : "testsample",
-    username : "test"
+    db : "hwos-test",
+    username : "hwos"
   },
   stages : {
-    qa : {
-      host : "ecko-it.iriscouch.com",
+    production : {
+      host : "hwos.iriscouch.com",
       port : "5984",
-      db : "sampleqa",
-      username : "test"
+      db : "hwos",
+      username : "hwos"
     }
   }
 }
